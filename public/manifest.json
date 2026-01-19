@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Crypto Price Monitor",
+  "version": "1.0.0",
+  "description": "Real-time cryptocurrency price tracking with watchlist, alerts, and portfolio management",
+  "permissions": [
+    "storage",
+    "notifications",
+    "alarms"
+  ],
+  "host_permissions": [
+    "https://api.coingecko.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_title": "Crypto Monitor"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["popup.html", "popup.js", "popup.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
