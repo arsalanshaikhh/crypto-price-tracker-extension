@@ -2,8 +2,11 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](manifest.json)
+[![Landing Page](https://img.shields.io/badge/Landing%20Page-View%20Here-brightgreen)](https://crypto-price-tracker-extension.vercel.app/)
 
 A powerful Chrome extension for real-time cryptocurrency price monitoring, featuring watchlists, customizable alerts, portfolio tracking, and interactive charts. Stay informed about market movements with ease.
+
+🌐 **[View Landing Page](https://crypto-price-tracker-extension.vercel.app/)**
 
 ## 🚀 Features
 
@@ -110,7 +113,8 @@ If you have any questions or issues, please open an issue on GitHub or contact t
 
 ## 🔗 Links
 
-- [Landing Page](Landing%20Page/index.html)
+- [🌐 Landing Page](https://crypto-price-tracker-extension.vercel.app/)
+- [GitHub Repository](https://github.com/arsalanshaikhh/crypto-price-tracker-extension)
 - [CoinGecko API](https://www.coingecko.com/en/api)
 
 ---
