@@ -3,67 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crypto Price Monitor - Real-Time Cryptocurrency Tracking</title>
-    <meta name="description" content="Real-time cryptocurrency price tracking with watchlist, alerts, and portfolio management. Stay ahead in the crypto market with our browser extension.">
-    <meta name="keywords" content="crypto, cryptocurrency, bitcoin, ethereum, price monitor, alerts, portfolio, browser extension">
-    <meta name="author" content="Crypto Price Monitor">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #f8f9fa;
-        }
-        .hero {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 100px 0;
-        }
-        .feature-icon {
-            font-size: 3rem;
-            color: #667eea;
-        }
-    </style>
+    <title>Crypto Price Tracker Extension</title>
+    <meta name="description" content="Track cryptocurrency prices in real-time with our lightweight Chrome extension.">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="hero">
-        <div class="container text-center">
-            <h1 class="display-4 fw-bold">Monitor Crypto Prices in Real-Time</h1>
-            <p class="lead">Stay ahead in the volatile crypto market with instant price updates, customizable alerts, and comprehensive portfolio management.</p>
-            <a href="https://chrome.google.com/webstore/detail/crypto-price-monitor" class="btn btn-light btn-lg">Download Now</a>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">CryptoTracker</div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#install">Install</a>
+                <a href="https://github.com/arsalanshaikhh/crypto-price-tracker-extension" target="_blank" class="btn-nav">View on GitHub</a>
+            </div>
         </div>
-    </header>
+    </nav>
 
-    <main class="container my-5">
-        <section class="row text-center">
-            <div class="col-md-4">
-                <div class="feature-icon mb-3">📈</div>
-                <h3>Real-Time Tracking</h3>
-                <p>Get live price updates for your favorite cryptocurrencies directly in your browser.</p>
+    <section class="hero">
+        <div class="container">
+            <h1>Crypto Price Tracker Extension</h1>
+            <p>Stay ahead in the crypto market with real-time price tracking, customizable alerts, and a clean, intuitive interface.</p>
+            <div class="cta-buttons">
+                <a href="https://github.com/arsalanshaikhh/crypto-price-tracker-extension" target="_blank" class="btn-primary">Download Extension</a>
+                <a href="https://github.com/arsalanshaikhh/crypto-price-tracker-extension" target="_blank" class="btn-secondary">View on GitHub</a>
             </div>
-            <div class="col-md-4">
-                <div class="feature-icon mb-3">🔔</div>
-                <h3>Smart Alerts</h3>
-                <p>Set price alerts to notify you when cryptocurrencies reach your target prices.</p>
-            </div>
-            <div class="col-md-4">
-                <div class="feature-icon mb-3">📊</div>
-                <h3>Portfolio Management</h3>
-                <p>Track your holdings, calculate profits/losses, and manage your crypto investments effortlessly.</p>
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="text-center my-5">
-            <h2>Why Choose Crypto Price Monitor?</h2>
-            <p class="lead">Our extension provides everything you need to navigate the crypto world with confidence. From beginners to seasoned traders, we've got you covered.</p>
-            <a href="https://chrome.google.com/webstore/detail/crypto-price-monitor" class="btn btn-primary btn-lg">Get Started Today</a>
-        </section>
-    </main>
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon">📈</div>
+                    <h3>Real-time Prices</h3>
+                    <p>Get live cryptocurrency prices updated instantly.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🎨</div>
+                    <h3>Clean UI</h3>
+                    <p>Enjoy a modern, user-friendly interface designed for ease of use.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">⚡</div>
+                    <h3>Lightweight and Fast</h3>
+                    <p>Minimal resource usage for quick performance.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🛠️</div>
+                    <h3>Easy to Use</h3>
+                    <p>Simple setup and intuitive controls for all users.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2023 Crypto Price Monitor. All rights reserved.</p>
+    <section id="install" class="install">
+        <div class="container">
+            <h2>How to Install</h2>
+            <div class="install-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <p>Open the <a href="https://github.com/arsalanshaikhh/crypto-price-tracker-extension" target="_blank">GitHub repository</a></p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <p>Download ZIP or clone the repository</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <p>Open Chrome and go to Extensions</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <p>Enable Developer Mode</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <p>Load Unpacked and select the dist folder</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why">
+        <div class="container">
+            <h2>Why This Extension?</h2>
+            <p>Our Crypto Price Tracker Extension is built for traders and enthusiasts who need reliable, real-time data without the clutter. With a focus on performance and usability, it's the perfect tool to monitor your crypto investments effortlessly.</p>
+            <div class="why-points">
+                <div class="point">🔒 Secure and private</div>
+                <div class="point">📱 Responsive design</div>
+                <div class="point">🌟 Regular updates</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Crypto Price Tracker. Built with ❤️ for crypto enthusiasts.</p>
+            <a href="https://github.com/arsalanshaikhh/crypto-price-tracker-extension" target="_blank">GitHub</a>
+        </div>
     </footer>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
